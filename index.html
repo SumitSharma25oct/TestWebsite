@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test Homepage for Space Exploration">
+    <meta name="author" content="Your Name">
+    <title>Space Exploration Homepage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #007BFF;
+            border-radius: 5px;
+        }
+        main {
+            padding: 2rem 1rem;
+        }
+        section {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 1rem 0;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        .planet-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 1rem;
+            margin: 1rem auto;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Space Exploration</h1>
+        <p>Discover the wonders of the universe, from distant planets to the mysteries of space.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#planets">Planets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Exploring the Cosmos</h2>
+            <p>Space exploration is a journey to uncover the secrets of the universe. Join us as we delve into the mysteries of space and beyond.</p>
+            <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa" alt="Beautiful Space Scene">
+        </section>
+
+        <section id="planets">
+            <h2>Planets of Our Solar System</h2>
+            
+            <div class="planet-card">
+                <h3>Mars</h3>
+                <p>The Red Planet, known for its dusty landscapes and potential for hosting life.</p>
+                <img src="https://images.unsplash.com/photo-1566150908484-4378b61b42e4" alt="Mars">
+            </div>
+
+            <div class="planet-card">
+                <h3>Jupiter</h3>
+                <p>The largest planet in our solar system, famous for its Great Red Spot.</p>
+                <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba" alt="Jupiter">
+            </div>
+
+            <div class="planet-card">
+                <h3>Earth</h3>
+                <p>Our home planet, the only known planet to support life.</p>
+                <img src="https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a" alt="Earth">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:space@exploration.com" style="color: #007BFF;">space@exploration.com</a></p>
+            <p>Phone: +1-800-SPACE</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Space Exploration. All rights reserved.</p>
+    </footer>
+</body>
+</html>
